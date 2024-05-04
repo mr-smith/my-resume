@@ -1,0 +1,94 @@
+{
+	"name": "Matthew R. Smith",
+	"address":{
+		"street": "################",
+		"city": "Jackson",
+		"state": "TN",
+		"zip": "38305"
+	},
+	"email": "############@gmail.com",
+	"phone":{
+		"type":"Cell",
+		"number":"(###)###-####"
+	},
+	"summary": "A collaborative and driven problem solver with a track record of helping business leaders develop the solutions that best fit their needs. Accomplished developer and life-long learner who enjoys growing his capabilities and skills.",
+	"capabilities":[
+		{
+			"type":"Languages",
+			"value":"C#, XAML, VB.Net, VBA, SQL, HTML, CSS, JavaScript, Typescript"
+		},
+		{
+			"type":"Databases",
+			"value":"SQL Server, MySQL, Microsoft Access, Advantage"
+		},
+		{
+			"type":"Software/Tools",
+			"value":"Visual Studio, SSMS, Git, dotPeek"
+		}
+	],
+	"employment":[
+		{
+			"company":"Logical Systems, (LSI)",
+			"location":"Jackson, TN",
+			"date":"December 2011 - Present",
+			"roles":[
+				{
+					"title":"MES Developer",
+					"date":"July 2015 - Present",
+					"tasks":[
+						"Developed a C# application for a coffee roasting company to update their ERP system as coffee beans are tracked from receiving through the roasting process. The application watches a SQL Server database for new information from the control system and then sends the updated data to a REST API. The application was designed to make it easy to add additional data collection points in anticipation of planned future upgrades to the system.",
+						"From 2017 to 2024, lead a team that developed custom WPF/C# Human-Machine Interfaces (HMIs) for a Fortune 200 tobacco company. The HMIs allow an operator to manually control pieces of equipment or automate product batches using OPC to communicate with plant floor equipment. The HMIs use multiple REST APIs to retrieve recipe set point values, track ingredients consumed for inventory management, and collect and store process batch data to satisfy FDA requirements.",
+						"Created a web based migration tool with a React interface to move Manufacturing Execution System (MES) configuration between environments. Developed a WPF/C# desktop application to simulate communication from a control system to an MES. These tools greatly reduced the amount of time needed to configure new processes, move configuration between environments, and test communication between the MES and control system.",
+						"Worked with a team to develop a recipe management interface for a company in the plastics industry. This solution included a React interface and a custom REST API using C# and Entity Framework. This allowed supervisors to easily display and modify recipe data in SQL Server.",
+						"Developed and optimized stored procedures and queries for a supplier of construction material. Developed new HMI functionality that required the creation of stored procedures and SQL queries. Optimized existing stored procedures and SQL queries to increase application performance and efficiency. The database optimization enabled the customer to fully utilize their existing production lines while also improving reliability.",
+						"Collaborated with a team of developers to plan, develop, and implement an MES for a paper company. Leveraged Wonderware MES with a highly modified database to fit the customer’s business requirements. The HMI used the Wonderware System Platform Suite with custom VB.Net controls. The HMI functions to gather real time information from multiple Siemens S7 programmable logic controllers (PLCs), enforces business rules upon the control system, and subsequently reports data to the database for inventory and product tracking purposes.",
+						"Acts as a mentor and trainer for developing and growing the capabilities and skills of team members."
+					]
+				},
+				{
+					"title":"DCS Programmer",
+					"date":"December 2011 - July 2015",
+					"tasks":[
+						"Designed a Microsoft SQL database and developed reports for a testing system used by a manufacturer of commercial electric generators. The system collected data during performance testing, generated reports, and determined if the generator met desired requirements. This eliminated the need for operators to manually complete paperwork and allowed engineers the opportunity to review test data.",
+						"Developed a web application using ASP.Net and C# for a solar panel manufacturer. The application used APIs from the Wonderware System Platform Suite to display and modify machine set point values. This solution allowed the customer to update live set point values in the control system while also updating the default configuration values. This prevented the customer from losing critical machine configuration when deploying control system modifications.",
+						"Added functionality to a VB.Net application for a Fortune 500 candy manufacturer in order to control new production equipment.",
+						"Migrated a batch data collection system from using Microsoft Access to Microsoft SQL Server for a manufacturer of power transformer components.",
+						"Programed PLCs to automate equipment for various industries (aerospace autoclaves, conveyors, palletizers, steel handling systems, coffee handling systems, generator testing platforms, paper winders and unwinders)",
+						"Improved stability and added features to a C# application used for data collection by an aerospace autoclave manufacturer.",
+						"Supported numerous customer service calls to troubleshoot problems causing production downtime and get the customer’s operation back up and running again.",
+						"Configured control system historians to collect machine data for preventive maintenance to minimize unplanned downtime."
+					]
+				}
+			]
+		},
+		{
+			"company":"Advanced Medical Billing",
+			"location":"Jackson, TN",
+			"date":"December 2007 - December 2011",
+			"roles":[
+				{
+					"title":"Office Manager/Technical Support",
+					"date":"June 2009 - December 2011",
+					"tasks":[
+						"Managed office staff. Interfaced with clients and staff in all departments to ensure work was completed accurately and met deadlines. Compiled various reports for clients as well as created custom reports. Managed internal computer networks and provided technical support."
+					]
+				},
+				{
+					"title":"Office Staff",
+					"date":"December 2007 - June 2009",
+					"tasks":[
+						"Interfaced with customers, sorted and filed incoming documents, scanned medical documents for storage, created file back-ups, and provided technical support."
+					]
+				}
+			]
+		}
+	],
+	"education":
+	{
+		"school":"Union University",
+		"location": "Jackson, TN",
+		"dates": "2006 - 2010",
+		"focus": "Business Management / Computer Information Systems"
+	}
+
+}
